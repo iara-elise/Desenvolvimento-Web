@@ -1,0 +1,24 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: blue;
+    color: white;
+}
+li em { 
+    font-weight: bold;
+    color: red;
+}
+h1 {
+    color: darkgreen;
+}
+ul {
+    margin-left: 15px;
+}
+ul ul {
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8em;
+}
