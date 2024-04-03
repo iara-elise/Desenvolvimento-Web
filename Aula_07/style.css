@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+}
+img {
+    border-radius: 10px;
+    max-width: 300px;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 50px;
+    color: palevioletred
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
