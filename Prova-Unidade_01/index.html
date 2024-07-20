@@ -3,73 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Avaliação - 1° Unidade</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Blog The Vampire Diaries</title>
 </head>
+
 <body>
+
+    <!--1° PASSO: CABEÇALHO-->
+
     <div>
         <header>
-            <h1>Título do cabeçalho</h1>
-            <img src="Logo IFRN.png.png" alt="Logo do IFRN."> 
+            <img src="Logo TVD.png" alt="Logo do seriado The Vampire Diares.">
+            <h1>Blog The Vampire Diaries</h1>
         </header>
     </div>
 
-    <div>
-        <nav>
-            <ul>
-                <li>Início</li>
-                <li>Sobre</li>
-                <li>Habilidades</li>
-                <li>Contato</li>
-            </ul>
-        </nav>
-    </div>
+    <!--2° PASSO: NAVEGAÇÃO-->
 
-    <div>
-        <main>
-            <div>
-                <h2>Sobre nós</h2>
-                <p>Inserir texto posteriormente.</p>
-            </div>
-
-            <div>
-                <h2>Serviços</h2>
-                <ul>
-                    <li>Serviço 01</li>
-                    <li>Serviço 02</li>
-                    <li>Serviço 03</li>
-                </ul>
-            </div>
-        </main>
-    </div>
-
-    <div>
-        <form>
-            <table>
-                <tr>
-                    <td> <label for="NOME">Nome</label> </td>
-                    <td> <input type="text" name="nome"> </td>
-                </tr>
+    <nav>
+        <ul id="telasDaPagina">
+            <li> <a href="#telaInicial"> Início </a> </li>
+            <li> <a href="#telaDeTopicos"> Tópicos </a> </li>
+            <li> <a href="#telaDeContato"> Contato</a> </li>
+        </ul>
+    </nav>
     
-                <tr>
-                    <td> <label for="E-MAIL">E-mail</label> </td>
-                    <td> <input type="email" name="email"> </td>
-                </tr>
+    <!--3° PASSO: CONTEÚDO PRINCIPAL DA PÁGINA-->
 
-                <tr>
-                    <!--Espaço para mensagem.-->
-                </tr>
 
-                <tr>
-                    <td> <button>Enviar</button></td>
-                </tr>
-            </table>
-        </form>
-    </div>
+    <main>
+        <div id="telaInicial">
+            <h2>Conheça o universo de TVD</h2>
+            
+            <p>"The Vampire Diaries" é uma série de livros norte-americana que ganhou uma adaptação em série. Seu primeiro episódio foi lançado dia 10 de setembro de 2009 e conta a história de Elena, uma garota que acabou de perder os pais em um acidente de carro. Ao longo da história conhecemos os irmãos Salvatore, Damon e Stefan. Juntos eles protagonizam um triângulo amoroso, mas a única história de amor que realmente importa nesta série é o amor fraterno que há entre os irmãos Salvatore, pois como diria Katherine Pierce: "Os irmãos Salvatore brigam como cão e gato, mas no final um morreria pelo outro."
+            </p> 
 
-    <div>
-        <footer>
-            <p>Criado por Iara Elise - 2024</p>
-        </footer>
-    </div>
+            <p>Ao longo da série também conhecemos personagens marcantes como Bonnie Bennett, Caroline Forbes, Jeremy Gilbert, Tyler Lockwood e Matt Donovan (talvez o Matt não seja tão marcante assim). Todos constituem partes importantes para a história principal.
+            </p> 
+
+            <p>A série chegou ao final no dia 10 de março de 2017 e possui 8 temporadas. O universo de "TVD" conta com dois spin-offs, sendo eles "The Originals" e "Legacies".</p>
+        </div>
+
+        <div id="telaDeTopicos">
+            <h2>Tópicos recentes do fórum</h2>
+
+            <ul id="topicosDoForum">
+                <li>Discussão: A 7° e a 8° temporada são desnecessárias? </li>
+                <li>Discussão: Bonnie merecia um final melhor?</li>
+                <li>Discussão: Stefan com a humanidade desligada é mais perigoso que o Damon?</li>
+                <li>Klaroline x Steroline: Entenda por que Klaus e Caroline formam o melhor casal da obra.</li>
+                <li>O Damon tem um péssimo desenvolvimento de personagem? Entenda como Julie Plec prejudicou o personagem.</li>
+            </ul>
+        </div>
+    </main>
+
+    <!--3° PASSO: FORMULÁRIO PARA CONTATO-->
+
+    <form id="telaDeContato">
+
+        <h2>Cadastre-se no blog</h2>
+
+        <div id="formulario">
+            <label for="nome"> Nome </label>
+            <input type="text" name="nome"> <br>
+
+            <label for="email"> E-mail </label>
+            <input type="email" name="e-mail"> <br>
+
+            <button type="submit"> Cadastre-se </button> <br>
+
+            <label id="mensagem" for="text"> Entre em contato </label> <br>
+            <textarea name="text"></textarea> <br>
+
+            <button type="submit"> Enviar </button>
+        </div>
+    </form>
+
+    <!--4° PASSO: RODAPÉ-->
+
+    <footer>
+       <p> <small>&copy 2024 Blog The Vampire Diares. Todos os direitos reservados</small>. </p> 
+    </footer>
+
 </body>
 </html>
